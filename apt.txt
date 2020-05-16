@@ -1,4 +1,4 @@
-emacs
+emacs26
 curl
 plantuml
 net-tools
