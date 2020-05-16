@@ -1,4 +1,9 @@
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 mkdir $HOME/src
+mkdir $HOME/bin
 git clone https://github.com/aaronaddleman/libsh.git $HOME/src/libsh
 cp $HOME/src/libsh/.libshrc $HOME/.libshrc
+curl -SsL https://github.com/cdr/code-server/releases/download/3.1.1/code-server-3.1.1-linux-x86_64.tar.gz | sudo tar -C $HOME/bin -xzf -
+ln -s /usr/local/lib/code-server/bin/code-server /usr/local/bin/code-server
+
+[ -f $HOME/cmd.sh ] && bash cmd.sh
