@@ -1,0 +1,17 @@
+name: dev-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - bokeh
+  - matplotlib
+  - rise
+  - pip
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
+    - awscli
+    - jupyter-server-proxy
