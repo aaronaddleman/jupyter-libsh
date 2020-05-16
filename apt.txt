@@ -1,1 +1,6 @@
 emacs
+curl
+plantuml
+net-tools
+vim
+unzip

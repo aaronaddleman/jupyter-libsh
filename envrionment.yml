@@ -6,6 +6,9 @@ dependencies:
   - numpy
   - matplotlib
   - rise
+  - iplantuml
+  - ipywidgets
+  - python-lambda-local
   - pip
   - pip:
     - nbgitpuller

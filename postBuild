@@ -1,1 +1,4 @@
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+mkdir $HOME/src
+git clone https://github.com/aaronaddleman/libsh.git $HOME/src/libsh
+cp $HOME/src/libsh/.libshrc $HOME/.libshrc
